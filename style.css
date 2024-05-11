@@ -1,0 +1,46 @@
+body:not(.presentation) {
+    background-color: #F0F0F0; /* Cor de fundo do corpo */
+    color: #333; /* Cor do texto */
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para as imagens */
+img {
+    max-width: 100%; /* Define a largura máxima como 100% do contêiner pai */
+    height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+    object-fit: cover; /* Redimensiona a imagem para cobrir o contêiner mantendo a proporção */
+}
+
+
+.familia {
+    background: linear-gradient(90deg, #FFFF99, #F7F700); 
+    color: #333; /* Cor do texto */
+}
+
+.mãe {
+    background: linear-gradient(90deg, #39A8A8, #006666); 
+    color: #fff; /* Cor do texto */
+}
+
+/* Estilos para a página de Angora */
+.matheus {
+    background: linear-gradient(90deg, #3555A1, #99CCFF);
+    color: #fff; /* Cor do texto */
+}
+
+/* Estilos para os títulos */
+h1, h2 {
+    font-family: "Arial Black", sans-serif; /* Fonte dos títulos */
+}
+
+/* Estilos para os links */
+a {
+    color: #007bff; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    font-weight: bold; /* Deixa os links em negrito */
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
